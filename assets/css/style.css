@@ -3,7 +3,8 @@
 
 .hero {
   background-image: url("../images/teleborg_castle.jpg");
-  height: 100%;
+  height: 100vh;
+  width: 100%;
   background-size: cover;
 }
 
