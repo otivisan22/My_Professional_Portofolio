@@ -1,0 +1,16 @@
+* {
+}
+
+.hero {
+  background-image: url("../images/teleborg_castle.jpg");
+  height: 100%;
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  border: 1px solid red;
+}
+.navbar {
+}
