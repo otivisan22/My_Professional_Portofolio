@@ -6,12 +6,13 @@
   height: 100vh;
   width: 100%;
   background-size: cover;
+  position: relative;
 }
 
 .container {
   display: flex;
   justify-content: center;
-  border: 1px solid red;
+  background-color: blueviolet;
 }
 .navbar {
 }
