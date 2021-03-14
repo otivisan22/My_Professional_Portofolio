@@ -1,23 +1,26 @@
-* {
-}
-
 .hero {
   background-image: url("../images/blossom_spirit.jpg");
   height: 100vh;
   width: 100%;
   background-size: cover;
-  position: relative;
 }
 
-.container {
-  position: absolute;
+.header-container {
   display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
   justify-content: center;
   background-color: blueviolet;
-  background-image: url("../images/blossom_spirit.jpg");
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: blueviolet;
 }
 
-.container > h1 {
+.header-container h1 {
+  margin: 0 auto;
   font-size: 6ren;
 }
 
@@ -41,7 +44,7 @@
   margin: 1rem;
 }
 
-.my projects {
+.my-projects {
   background-color: darkorchid;
   padding: 1rem;
   margin: 1rem;
