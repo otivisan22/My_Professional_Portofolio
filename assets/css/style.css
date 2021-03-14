@@ -1,10 +1,10 @@
 .hero {
   background-image: url("../images/blossom_spirit.jpg");
-  height: 100vh;
+  height: 200vh;
   width: 100%;
   background-size: cover;
 }
-
+/* Header styling */
 .header-container {
   display: flex;
   flex-direction: column;
@@ -21,7 +21,7 @@
   margin: 0 auto;
   font-size: 6ren;
 }
-
+/* Navbar styling */
 .navbar {
   display: flex;
   flex-wrap: wrap;
@@ -32,9 +32,6 @@
   padding: 1rem;
   width: 90%;
   margin-right: 1rem;
-}
-
-.header {
 }
 
 .about {
@@ -53,7 +50,7 @@
   padding: 1rem;
   margin: 1rem;
 }
-
+/* Cards-container styling */
 .cards-container {
   display: flex;
   flex-wrap: wrap;
@@ -64,7 +61,7 @@
   margin: 1rem;
   border-radius: 5px;
 }
-
+/* Card img styling */
 .card img,
 .contact-image-container img {
   height: 100%;
@@ -96,7 +93,7 @@
 .card-info {
   padding: 1rem;
 }
-
+/* Contact styling */
 .contact-container {
   background-color: rgb(145, 34, 192);
   padding: 1rem;
@@ -109,7 +106,7 @@
   height: 100px;
   width: 100px;
 }
-
+/* Desktop styling */
 @media screen and (max-width: 768px) {
   .container {
     flex-direction: column;
@@ -118,7 +115,7 @@
     margin-left: 15px;
   }
 }
-
+/* Mobile device styling */
 @media screen and (max-width: 500px) {
   .my-projects {
     margin: 0;
