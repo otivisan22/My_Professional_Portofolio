@@ -31,6 +31,11 @@ code .
 
 # Screenshots
 
+![screenshot1](./assets/images/aboutme_section.jpg)
+![screenshot2](./assets/images/myprojects_section.jpg)
+![screenshot3](./assets/images/contact_section.jpg)
+![screenshot4](./assets/images/mobile_device.jpg)
+
 # Testing
 
 - A series of tests were performed and established after each block or styled has been added
