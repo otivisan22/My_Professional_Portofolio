@@ -106,6 +106,15 @@
   height: 100px;
   width: 100px;
 }
+
+/* Footer styling */
+.footer {
+  text-align: center;
+}
+
+.footer h3 {
+  font-size: 20px;
+}
 /* Desktop styling */
 @media screen and (max-width: 768px) {
   .container {
