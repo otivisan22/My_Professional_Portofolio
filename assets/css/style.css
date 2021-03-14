@@ -10,13 +10,11 @@
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
-  background-color: blueviolet;
 }
 .container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  background-color: blueviolet;
 }
 
 .header-container h1 {
@@ -40,10 +38,10 @@
 }
 
 .about {
-  background-color: darkmagenta;
   padding: 1rem;
   margin: 1rem;
 }
+
 .about-me-img {
   max-width: 400px;
   max-height: 400px;
@@ -51,7 +49,7 @@
 }
 
 .my-projects {
-  background-color: darkorchid;
+  background-color: rgb(104, 31, 136);
   padding: 1rem;
   margin: 1rem;
 }
@@ -63,7 +61,6 @@
 }
 
 .card {
-  background-color: darkviolet;
   margin: 1rem;
   border-radius: 5px;
 }
@@ -101,13 +98,14 @@
 }
 
 .contact-container {
-  background-color: deeppink;
+  background-color: rgb(145, 34, 192);
   padding: 1rem;
   margin: 1rem;
   display: flex;
   justify-content: center;
 }
 .contact-image-container {
+  background-color: rgba(148, 0, 211, 0.774);
   height: 100px;
   width: 100px;
 }
