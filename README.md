@@ -27,6 +27,7 @@ code .
 - Formatted code using lint (prettier)
 - Formatted the CSS style according to the HTML Semantic elements
 - Used flexbox and media queries in order to have a more accessible and clean styling format
+- Created a functional navbar
 
 # Screenshots
 
