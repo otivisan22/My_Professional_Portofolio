@@ -1,6 +1,6 @@
 .hero {
   background-image: url("../images/blossom_spirit.jpg");
-  height: 200vh;
+  height: 250vh;
   width: 100%;
   background-size: cover;
 }
@@ -112,9 +112,6 @@
   text-align: center;
 }
 
-.footer h2 {
-  font-size: 20px;
-}
 /* Desktop styling */
 @media screen and (max-width: 768px) {
   .container {
