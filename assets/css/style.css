@@ -63,27 +63,27 @@
 }
 
 .card {
-  height: 100px;
-  width: 100px;
   background-color: darkviolet;
   margin: 1rem;
   border-radius: 5px;
 }
 
-.card-image-container {
-  height: 20rem;
-  width: 300px;
-  padding: 1rem;
-}
-.refactor-image {
+.card img,
+.contact-image-container img {
   height: 100%;
   width: 100%;
 }
 
-.card-image {
-  height: 100px;
-  max-width: 100px;
-  object-fit: contain;
+.card-image-container-large {
+  height: 20rem;
+  width: 300px;
+  padding: 1rem;
+}
+
+.card-image-container-small {
+  height: 15rem;
+  width: 270px;
+  padding: 1rem;
 }
 
 .card-title {
@@ -100,10 +100,16 @@
   padding: 1rem;
 }
 
-.contact {
+.contact-container {
   background-color: deeppink;
   padding: 1rem;
   margin: 1rem;
+  display: flex;
+  justify-content: center;
+}
+.contact-image-container {
+  height: 100px;
+  width: 100px;
 }
 
 @media screen and (max-width: 768px) {
@@ -112,6 +118,12 @@
   }
   .navbar {
     margin-left: 15px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .my-projects {
+    margin: 0;
   }
 }
 
