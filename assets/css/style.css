@@ -1,6 +1,7 @@
 * {
 }
 
+
 .hero {
   background-image: url("../images/blossom_spirit.jpg");
   height: 100vh;
@@ -28,7 +29,31 @@
 }
 
 .content {
+padding: 1rem;
+width: 90%;
 
+}
+
+.header{
+
+}
+
+.about{
+background-color: darkmagenta;
+padding: 1rem;
+margin: 1rem;
+}
+
+.projects{
+  background-color: darkorchid;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.contact{
+background-color: deeppink;
+padding: 1rem;
+margin: 1rem;
 }
 
 @media screen and (max-width: 768px;) {
