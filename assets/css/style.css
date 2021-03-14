@@ -107,11 +107,6 @@
   width: 100px;
 }
 
-/* Footer styling */
-.footer {
-  text-align: center;
-}
-
 /* Desktop styling */
 @media screen and (max-width: 768px) {
   .container {
